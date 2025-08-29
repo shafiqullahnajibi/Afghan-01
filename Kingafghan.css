@@ -1,0 +1,87 @@
+.had{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgb(140, 253, 232);
+    border-color: rgb(168, 138, 138);
+    border: solid;
+    border-width: 1px;
+    z-index: 1;
+    flex: 1fr
+}
+
+body{
+    background-image: url(/photos/1.jpg);
+}
+.had1{
+    display:flex;
+    position: relative;
+    width: 300px;
+    flex: 1fr;
+    max-width: 400px;
+    align-items: center;
+    border: 2px red solid;
+}
+.mune{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.mune:hover{
+    background-color: brown;
+    color: white;
+}
+.divimg{
+    display: block;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+.imghad1{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.imghad1:hover{
+    width: 40px;
+    height: 40px;
+    color: blue;
+    box-shadow: 2px 3px 7px black;
+}
+.pimghad1{
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.pimghad1:hover{
+    background-color: rgb(82, 214, 16);
+    color: blue;
+    box-shadow: 2px 3px 7px black;
+}
+.par{
+    display: inline-block;
+    padding-left: 5px;
+    
+}
+.had2{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    border: 2px red solid;
+}
+.had3{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    border: 2px red solid;
+}
